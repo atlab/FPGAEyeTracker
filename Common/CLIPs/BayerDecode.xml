@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CLIPDeclaration Name="Bayer Color Decode">
+   <FormatVersion>1.1</FormatVersion>
+   <CLIPVersion>1.0.0</CLIPVersion>
+   <HDLName>BayerDecode</HDLName>
+   <ImplementationList> 
+      <Path>BayerDecode.ngc</Path>
+   </ImplementationList>
+	<InterfaceList>
+		<Interface Name="LabVIEW">
+			<InterfaceType>LabVIEW</InterfaceType>
+			<SignalList>
+				<Signal Name="Clock">
+					<HDLName>Clk</HDLName>
+					<Datatype><Boolean/></Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>clock</SignalType>
+					<FreqInHertz>
+						<Max>200M</Max>
+						<Min>1M</Min>
+					</FreqInHertz>
+				</Signal>
+				<Signal Name="First Row Is Blue">
+					<HDLName>cFirstRowIsBlue</HDLName>
+					<Datatype><Boolean/></Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>				
+				<Signal name="First Column Is Red">
+					<HDLName>cFirstColIsRed</HDLName>
+					<DataType><Boolean/></DataType>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Image Width">
+					<HDLName>cImageWidth</HDLName>
+					<DataType><U16/></DataType>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>				
+				<Signal name="New Frame Pulse">
+					<HDLName>cNewFrame</HDLName>
+					<DataType><Boolean/></DataType>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Pixel In">
+					<HDLName>cPixelIn</HDLName>
+					<DataType><U8/></DataType>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Write Enable">
+					<HDLName>cWrite</HDLName>
+					<DataType><Boolean/></DataType>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>				
+				<Signal name="Red Output">
+					<HDLName>cRedOut</HDLName>
+					<DataType><U8/></DataType>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Green Output">
+					<HDLName>cGrnOut</HDLName>
+					<DataType><U8/></DataType>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Blue Output">
+					<HDLName>cBluOut</HDLName>
+					<DataType><U8/></DataType>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>				
+				<Signal name="RGB Output Valid">
+					<HDLName>cRgbValid</HDLName>
+					<DataType><Boolean/></DataType>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Raw Output">
+					<HDLName>cRawOut</HDLName>
+					<DataType><U8/></DataType>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Raw Output Valid">
+					<HDLName>cRawValid</HDLName>
+					<DataType><Boolean/></DataType>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>				
+			</SignalList>
+		</Interface>
+		<Interface Name="Reset">
+			<InterfaceType>Fabric</InterfaceType>
+			<SignalList>
+				<Signal Name="aResetSl">
+					<HDLName>aResetSl</HDLName>
+					<Datatype><Boolean/></Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>reset</SignalType>
+				</Signal>
+			</SignalList>
+		</Interface>
+	</InterfaceList>
+</CLIPDeclaration>

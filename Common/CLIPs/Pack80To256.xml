@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<CLIPDeclaration Name="Pack 80 To 256">
+   <FormatVersion>1.1</FormatVersion>
+   <CLIPVersion>1.0.0</CLIPVersion>
+   <HDLName>Pack80To256</HDLName>
+   <ImplementationList> 
+      <Path>Pack80To256.ngc</Path>
+   </ImplementationList>
+	<InterfaceList>
+		<Interface Name="LabVIEW">
+			<InterfaceType>LabVIEW</InterfaceType>
+			<SignalList>
+				<Signal Name="Clock">
+					<HDLName>Clk</HDLName>
+					<Datatype><Boolean/></Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>clock</SignalType>
+					<FreqInHertz>
+						<Max>200M</Max>
+						<Min>1M</Min>
+					</FreqInHertz>
+				</Signal>			
+				<Signal name="Write Enable">
+					<HDLName>cWrite</HDLName>
+					<DataType><Boolean/></DataType>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Ready For Write">
+					<HDLName>cReady</HDLName>
+					<DataType><Boolean/></DataType>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Data In Lower 64">
+					<HDLName>cDataInLo64</HDLName>
+					<DataType><U64/></DataType>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Data In Upper 16">
+					<HDLName>cDataInHi16</HDLName>
+					<DataType><U16/></DataType>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>				
+				<Signal name="Output Valid">
+					<HDLName>cValid</HDLName>
+					<DataType><Boolean/></DataType>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Read Enable">
+					<HDLName>cRead</HDLName>
+					<DataType><Boolean/></DataType>
+					<Direction>ToCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Data Out 0">
+					<HDLName>cDataOut0</HDLName>
+					<DataType><U64/></DataType>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Data Out 1">
+					<HDLName>cDataOut1</HDLName>
+					<DataType><U64/></DataType>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Data Out 2">
+					<HDLName>cDataOut2</HDLName>
+					<DataType><U64/></DataType>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+				<Signal name="Data Out 3">
+					<HDLName>cDataOut3</HDLName>
+					<DataType><U64/></DataType>
+					<Direction>FromCLIP</Direction>
+					<SignalType>data</SignalType>
+					<RequiredClockDomain>Clock</RequiredClockDomain>
+				</Signal>
+			</SignalList>
+		</Interface>
+		<Interface Name="Reset">
+			<InterfaceType>Fabric</InterfaceType>
+			<SignalList>
+				<Signal Name="aResetSl">
+					<HDLName>aResetSl</HDLName>
+					<Datatype><Boolean/></Datatype>
+					<Direction>ToCLIP</Direction>
+					<SignalType>reset</SignalType>
+				</Signal>
+			</SignalList>
+		</Interface>
+	</InterfaceList>
+</CLIPDeclaration>
