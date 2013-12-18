@@ -1,5 +1,5 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "78,43,809,399"
+ProjectExplorer.ClassicPosition[String] = "81,473,812,829"
 
 [AB_Cache_{6B7E526E-249D-4D9D-81D8-DB4C18A40B47}]
 Cache_ProjSymbolChksum[String] = "7dea362b3fac8e00956a4952a3d4f474"
@@ -35,33 +35,11 @@ Cache_GenGUID[1][String] = "{E8448B68-A1BC-4114-86C2-8AA2AA10B222}"
 Cache_GenGUID[2][String] = "{5B577E63-219F-4D39-8FB7-98F642C87D68}"
 Cache_OutputDir[Path] = "/Z/projects/builds/Eye Tracker - S1"
 
-[AB_Cache_{8ECF1161-55EF-4072-9323-163000F33291}]
-Cache_Path[Path] Line0001 = "/C/Documents and Settings/atlab/Local Settings/Tem"
-Cache_Path[Path] Line0002 = "p/AB_Cache_{8ECF1161-55EF-4072-9323-163000F33291}."
-Cache_Path[Path] Line0003 = "txt"
-
-[AB_Cache_{DED3A484-723E-4189-9578-06D3C443FD20}]
-Cache_Path[Path] Line0001 = "/C/Documents and Settings/atlab/Local Settings/Tem"
-Cache_Path[Path] Line0002 = "p/AB_Cache_{DED3A484-723E-4189-9578-06D3C443FD20}."
-Cache_Path[Path] Line0003 = "txt"
-
-[AB_Cache_{02CC2C9F-82D3-465F-8AA1-BC1D8CCC1D9E}]
-Cache_Path[Path] Line0001 = "/C/Documents and Settings/atlab/Local Settings/Tem"
-Cache_Path[Path] Line0002 = "p/AB_Cache_{02CC2C9F-82D3-465F-8AA1-BC1D8CCC1D9E}."
-Cache_Path[Path] Line0003 = "txt"
-
-[AB_Cache_{EC8E9D4A-6F4C-4905-8069-26A5E0D9AADE}]
-Cache_Path[Path] Line0001 = "/C/Documents and Settings/atlab/Local Settings/Tem"
-Cache_Path[Path] Line0002 = "p/AB_Cache_{EC8E9D4A-6F4C-4905-8069-26A5E0D9AADE}."
-Cache_Path[Path] Line0003 = "txt"
-
 [AB_Cache_{04DD610C-23EC-4160-BE9E-F3714CE59409}]
-Cache_Path[Path] Line0001 = "/C/Documents and Settings/atlab/Local Settings/Tem"
-Cache_Path[Path] Line0002 = "p/AB_Cache_{04DD610C-23EC-4160-BE9E-F3714CE59409}."
-Cache_Path[Path] Line0003 = "txt"
+Cache_Path[Path] Line0001 = "/C/Users/atlab/AppData/Local/Temp/AB_Cache_{04DD61"
+Cache_Path[Path] Line0002 = "0C-23EC-4160-BE9E-F3714CE59409}.txt"
 
 [AB_Cache_{D7474D46-1812-43F9-8C6A-DA2A64C2FC49}]
-Cache_Path[Path] Line0001 = "/C/Documents and Settings/atlab/Local Settings/Tem"
-Cache_Path[Path] Line0002 = "p/AB_Cache_{D7474D46-1812-43F9-8C6A-DA2A64C2FC49}."
-Cache_Path[Path] Line0003 = "txt"
+Cache_Path[Path] Line0001 = "/C/Users/atlab/AppData/Local/Temp/AB_Cache_{D7474D"
+Cache_Path[Path] Line0002 = "46-1812-43F9-8C6A-DA2A64C2FC49}.txt"
 
