@@ -1,0 +1,56 @@
+<Boolean>
+<Name></Name>
+<Val>0</Val>
+</Boolean>
+</NumElts>
+<Boolean>
+<Name>Calibration</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>Image Acq Rate</Name>
+<Val>20.00000000000000</Val>
+</DBL>
+<Boolean>
+<Name>Raw  Image</Name>
+<Val>1</Val>
+</Boolean>
+<DAQChannel>
+<Name>RIO Device</Name>
+<Val>RIO0</Val>
+</DAQChannel>
+<Boolean>
+<Name>Record</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Setup  3</Name>
+<Val>1</Val>
+</Boolean>
+<DBL>
+<Name>MinUpdatePeriod</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Viewing Rate</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>FrameRate</Name>
+<Val>250.00000000000000</Val>
+</DBL>
+<U32>
+<Name>Threshold</Name>
+<Val>2800</Val>
+</U32>
+<Boolean>
+<Name>AnalogOut</Name>
+<Val>1</Val>
+</Boolean>
+<Refnum>
+<Name>DA Output Task</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>NIDAQ</RefType>
+<Val>OpticalTrackerOutWithPupilSize</Val>
+</Refnum>
+</Cluster>
