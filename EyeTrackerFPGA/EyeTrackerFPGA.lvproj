@@ -3537,7 +3537,41 @@ Iso In 0NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/I
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
-			<Item Name="Dependencies" Type="Dependencies"/>
+			<Item Name="Dependencies" Type="Dependencies">
+				<Item Name="CL Configuration.ctl" Type="VI" URL="../../Common/CL Configuration.ctl"/>
+				<Item Name="CL Signal Mapping.ctl" Type="VI" URL="../../Common/CL Signal Mapping.ctl"/>
+				<Item Name="Counter.vi" Type="VI" URL="../../Common/Counter.vi"/>
+				<Item Name="Rising Edge Detector.vi" Type="VI" URL="../../Common/Rising Edge Detector.vi"/>
+				<Item Name="CL Data to Pixels.vi" Type="VI" URL="../../Common/CL Data to Pixels.vi"/>
+				<Item Name="1 Tap 8-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 8-Bit.vi"/>
+				<Item Name="2 Tap 8-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/2 Tap 8-Bit.vi"/>
+				<Item Name="3 Tap 8-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/3 Tap 8-Bit.vi"/>
+				<Item Name="4 Tap 8-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/4 Tap 8-Bit.vi"/>
+				<Item Name="8 Tap 8-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/8 Tap 8-Bit.vi"/>
+				<Item Name="10 Tap 8-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/10 Tap 8-Bit.vi"/>
+				<Item Name="1 Tap 10-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 10-Bit.vi"/>
+				<Item Name="2 Tap 10-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/2 Tap 10-Bit.vi"/>
+				<Item Name="3 Tap 10-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/3 Tap 10-Bit.vi"/>
+				<Item Name="4 Tap 10-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/4 Tap 10-Bit.vi"/>
+				<Item Name="1 Tap 12-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 12-Bit.vi"/>
+				<Item Name="2 Tap 12-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/2 Tap 12-Bit.vi"/>
+				<Item Name="3 Tap 12-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/3 Tap 12-Bit.vi"/>
+				<Item Name="4 Tap 12-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/4 Tap 12-Bit.vi"/>
+				<Item Name="1 Tap 14-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 14-Bit.vi"/>
+				<Item Name="1 Tap 16-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 16-Bit.vi"/>
+				<Item Name="1 Tap 24-Bit RGB.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 24-Bit RGB.vi"/>
+				<Item Name="1 Tap 30-Bit RGB.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 30-Bit RGB.vi"/>
+				<Item Name="1 Tap 36-Bit RGB.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 36-Bit RGB.vi"/>
+				<Item Name="1 Tap 42-Bit RGB.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 42-Bit RGB.vi"/>
+				<Item Name="1 Tap 48-Bit RGB.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 48-Bit RGB.vi"/>
+				<Item Name="2 Tap 16-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/2 Tap 16-Bit.vi"/>
+				<Item Name="2 Tap 14-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/2 Tap 14-Bit.vi"/>
+				<Item Name="3 Tap 14-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/3 Tap 14-Bit.vi"/>
+				<Item Name="3 Tap 16-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/3 Tap 16-Bit.vi"/>
+				<Item Name="2 Tap 24-Bit RGB.vi" Type="VI" URL="../../Common/CL Data to Pixels/2 Tap 24-Bit RGB.vi"/>
+				<Item Name="Falling Edge Detector.vi" Type="VI" URL="../../Common/Falling Edge Detector.vi"/>
+				<Item Name="Serial Interface.vi" Type="VI" URL="../../Common/Serial Interface.vi"/>
+			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="EyeTrackerFPGA (FPGA)" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
@@ -7168,7 +7202,41 @@ Iso In 0NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalLis
 				<Item Name="Dependencies" Type="Dependencies"/>
 				<Item Name="Build Specifications" Type="Build"/>
 			</Item>
-			<Item Name="Dependencies" Type="Dependencies"/>
+			<Item Name="Dependencies" Type="Dependencies">
+				<Item Name="CL Configuration.ctl" Type="VI" URL="../../Common/CL Configuration.ctl"/>
+				<Item Name="CL Signal Mapping.ctl" Type="VI" URL="../../Common/CL Signal Mapping.ctl"/>
+				<Item Name="Counter.vi" Type="VI" URL="../../Common/Counter.vi"/>
+				<Item Name="Rising Edge Detector.vi" Type="VI" URL="../../Common/Rising Edge Detector.vi"/>
+				<Item Name="CL Data to Pixels.vi" Type="VI" URL="../../Common/CL Data to Pixels.vi"/>
+				<Item Name="1 Tap 8-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 8-Bit.vi"/>
+				<Item Name="2 Tap 8-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/2 Tap 8-Bit.vi"/>
+				<Item Name="3 Tap 8-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/3 Tap 8-Bit.vi"/>
+				<Item Name="4 Tap 8-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/4 Tap 8-Bit.vi"/>
+				<Item Name="8 Tap 8-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/8 Tap 8-Bit.vi"/>
+				<Item Name="10 Tap 8-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/10 Tap 8-Bit.vi"/>
+				<Item Name="1 Tap 10-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 10-Bit.vi"/>
+				<Item Name="2 Tap 10-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/2 Tap 10-Bit.vi"/>
+				<Item Name="3 Tap 10-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/3 Tap 10-Bit.vi"/>
+				<Item Name="4 Tap 10-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/4 Tap 10-Bit.vi"/>
+				<Item Name="1 Tap 12-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 12-Bit.vi"/>
+				<Item Name="2 Tap 12-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/2 Tap 12-Bit.vi"/>
+				<Item Name="3 Tap 12-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/3 Tap 12-Bit.vi"/>
+				<Item Name="4 Tap 12-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/4 Tap 12-Bit.vi"/>
+				<Item Name="1 Tap 14-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 14-Bit.vi"/>
+				<Item Name="1 Tap 16-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 16-Bit.vi"/>
+				<Item Name="1 Tap 24-Bit RGB.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 24-Bit RGB.vi"/>
+				<Item Name="1 Tap 30-Bit RGB.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 30-Bit RGB.vi"/>
+				<Item Name="1 Tap 36-Bit RGB.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 36-Bit RGB.vi"/>
+				<Item Name="1 Tap 42-Bit RGB.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 42-Bit RGB.vi"/>
+				<Item Name="1 Tap 48-Bit RGB.vi" Type="VI" URL="../../Common/CL Data to Pixels/1 Tap 48-Bit RGB.vi"/>
+				<Item Name="2 Tap 16-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/2 Tap 16-Bit.vi"/>
+				<Item Name="2 Tap 14-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/2 Tap 14-Bit.vi"/>
+				<Item Name="3 Tap 14-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/3 Tap 14-Bit.vi"/>
+				<Item Name="3 Tap 16-Bit.vi" Type="VI" URL="../../Common/CL Data to Pixels/3 Tap 16-Bit.vi"/>
+				<Item Name="2 Tap 24-Bit RGB.vi" Type="VI" URL="../../Common/CL Data to Pixels/2 Tap 24-Bit RGB.vi"/>
+				<Item Name="Falling Edge Detector.vi" Type="VI" URL="../../Common/Falling Edge Detector.vi"/>
+				<Item Name="Serial Interface.vi" Type="VI" URL="../../Common/Serial Interface.vi"/>
+			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="EyeTrackerFPGA-7954R" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
 					<Property Name="AllowEnableRemoval" Type="Bool">false</Property>
@@ -7213,6 +7281,2059 @@ Iso In 0NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalLis
 		<Item Name="Shared Variables.lvlib" Type="Library" URL="../Shared Variables.lvlib"/>
 		<Item Name="Eye.ico" Type="Document" URL="../Eye.ico"/>
 		<Item Name="OpenAVIFile.vi" Type="VI" URL="../OpenAVIFile.vi"/>
+		<Item Name="FPGA Target" Type="FPGA Target">
+			<Property Name="AutoRun" Type="Bool">false</Property>
+			<Property Name="configString.guid" Type="Str">{01E469C2-550E-40EB-BAF3-80FD325B3F4D}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set LVAL Active High;0;WriteMethodType=bool{08D8B472-083F-442F-A766-C499E6F652FF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Control 4;0;WriteMethodType=bool{09809CC1-5512-42BA-BB96-EAB8A1EC56CE}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART TX Ready;0;ReadMethodType=bool{0D1FFDDC-7F5A-4B55-8A12-06FFB186B944}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Control 3;0;WriteMethodType=bool{196D7B16-4BCC-45A7-8060-850BCEAA2C75}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out Enable 2;0;WriteMethodType=bool{1AA6ADD9-1184-4F45-985F-5F06DC2C1E49}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Acq Init;0;WriteMethodType=bool{1D5E2828-54EF-4C05-BA92-CE7DCF19EE29}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set DVAL Active High;0;WriteMethodType=bool{20354106-1ACF-4F02-BF0B-0FD08F81C1A0}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port G;0;ReadMethodType=U8{204930D4-92B2-4BA3-BEC6-1B7D090E239E}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/QE Phase A;0;ReadMethodType=bool{22A51107-272B-4DEB-91F0-823DAF72C35E}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Output Valid;0;ReadMethodType=bool{25EA747F-3D56-4158-BF3D-FD47D3E20892}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out 1;0;WriteMethodType=bool{2816FE29-4D7A-485F-A983-A244DA86CBE4}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set Spare Active High;0;WriteMethodType=bool{34C6B128-9B2C-4B68-AA7E-6343A675C69E}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out 2;0;WriteMethodType=bool{37CF80CA-63E0-422F-81FC-86D09B547262}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Spare;0;ReadMethodType=bool{3AF2DE0F-A120-4721-A2BD-53DCE01AD8C9}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Line Valid;0;ReadMethodType=bool{46303228-473C-4830-B2DB-FA02866BB09F}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/TTL In 1;0;ReadMethodType=bool{487EC01A-0C15-449E-A97D-F9939BD5C775}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port E;0;ReadMethodType=U8{4B7F7CFB-5E97-4C4A-876B-E80E2376B853}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set Line Scan;0;WriteMethodType=bool{4EEBB32C-AEA6-4242-ADE0-F4BC9B46AECC}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port D;0;ReadMethodType=U8{534ADDB0-B9F4-471E-BDC4-A750CD57C00D}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Iso In 0;0;ReadMethodType=bool{547653EE-B90D-43E4-A536-0C50BFBB7DA0}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/UART Read Enable;0;WriteMethodType=bool{55FE1454-83D0-44A5-ABF2-ED56F37D2A55}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set FVAL Active High;0;WriteMethodType=bool{5E29B1DB-A497-4C96-A34D-8A6A0C4BCCBD}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Control 1;0;WriteMethodType=bool{652EADAD-F69B-455D-9F54-0CE04136BCF3}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/QE Phase B;0;ReadMethodType=bool{67457D0F-7589-4507-BD03-7FBF2F6620FA}4806a339697dcffe1ad92f8643ba9a4fIOModuleID:0x109374C9,Version:1.1.0,National Instruments::NI 1483,SyncClock:None&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Clock Connections&lt;/Name&gt;
+&lt;Dimsize&gt;2&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Clock 40 MHz&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;Clk40&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Image Data Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;CoreClk&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;25000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+{68D10D84-C733-4A83-9C83-55F76BF6AD1D}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port J;0;ReadMethodType=U8{6A90D6BD-0E13-4C44-B8AE-2B239243C712}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port C;0;ReadMethodType=U8{6C069B5C-61E8-409B-944C-C223ACD1DF4C}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/UART Set Baud Rate;0;WriteMethodType=bool{72C2A6F5-DAE2-4936-91BF-7154C2E98FED}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART Framing Error;0;ReadMethodType=bool{82A2F818-57C5-40BA-BD1C-BE9BE8D99146}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/TTL In 2;0;ReadMethodType=bool{88E80AEB-CEAA-4582-90A3-113D4B02534D}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/TTL In 0;0;ReadMethodType=bool{8C335D7C-FDC3-4635-8D36-4557833BDFAB}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART Read Data;0;ReadMethodType=U8{8DADAE54-FB3E-48FF-9AFA-12A314E05084}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/UART Write Enable;0;WriteMethodType=bool{900873B9-C3B3-4D8D-A41E-0822F1DBC6A4}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out Enable 1;0;WriteMethodType=bool{9053C325-F36C-4D25-9231-3C40AB64DD7B}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port H;0;ReadMethodType=U8{993DAD0D-B6BC-4FEB-8957-C1470F9BB771}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Data Valid;0;ReadMethodType=bool{994E7506-8AEB-4868-AAAD-25C7C6A77F02}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Control 2;0;WriteMethodType=bool{9AF9E423-02BE-432A-B2F8-FF5742379F60}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Frame Valid;0;ReadMethodType=bool{9CDD0127-09A5-418E-8708-C39DC7CF023C}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART Break Indicator;0;ReadMethodType=bool{9D9662B2-81D3-4BFA-BEFA-29CA759673E3}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port A;0;ReadMethodType=U8{9E27E5C6-13A8-43EF-824F-DD54B196300D}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/CL Acq Ready;0;ReadMethodType=bool{A355F3B0-49BE-4924-B70A-DCAF7A0B8AF6}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Control Enable;0;WriteMethodType=bool{A3D5744E-ECAE-40C5-845A-FD075B302B83}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/UART Baud Rate In;0;WriteMethodType=U8{A875AEE9-46FB-476D-91E7-CB6B8E00659C}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port F;0;ReadMethodType=U8{AF52C8B1-EFE2-4B22-A74E-E82391744D7E}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Iso In 1;0;ReadMethodType=bool{BD56DD47-0F1A-4209-ACEC-228F223FF78B}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set Configuration;0;WriteMethodType=U8{CB1FFDC0-3EB1-4883-931E-44BB0385F0B6}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port B;0;ReadMethodType=U8{D0393A0B-7264-4CCD-8049-CD9E8AA710B0}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out 3;0;WriteMethodType=bool{D843E2F5-945A-40D9-BB33-A18DB67E1DAD}NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/TTL In 3;0;ReadMethodType=bool{D91F3663-835E-4C5C-8161-10053CBAE9CF}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set Signal Mapping;0;WriteMethodType=U8{DB778E75-D378-404C-921D-0EB4F9A9854D}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART Set Baud Rate Ack;0;ReadMethodType=bool{DDC7C2A0-E463-4BA1-A12A-1E0157144B02}ResourceName=40 MHz Onboard Clock;TopSignalConnect=RioClk40;ClockSignalName=RioClk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;{DEC9F687-7DB7-4464-A23E-BC94B5479E2A}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out Enable 3;0;WriteMethodType=bool{E7BAA3D9-C243-4CE7-85F0-3AD98A5BB8C1}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/UART Write Data;0;WriteMethodType=U8{EE11D576-D6CF-4F92-B957-1755848B1C86}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port I;0;ReadMethodType=U8{F3757496-784E-4BCA-86DD-11299499CB98}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART RX Ready;0;ReadMethodType=bool{F5323495-09A2-4B24-A31B-3ADD1937FDB7}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out Enable 0;0;WriteMethodType=bool{F5F0B4F1-B8F5-4E6C-B49A-554E7303A125}NumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART RX Overrun Error;0;ReadMethodType=bool{F80476D8-B48C-43AB-9D55-34F44A23D2E1}ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out 0;0;WriteMethodType=boolPXI-7953R/RioClk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]</Property>
+			<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=RioClk40;ClockSignalName=RioClk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;CL Acq InitArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Acq Init;0;WriteMethodType=boolCL Acq ReadyNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/CL Acq Ready;0;ReadMethodType=boolCL Control 1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Control 1;0;WriteMethodType=boolCL Control 2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Control 2;0;WriteMethodType=boolCL Control 3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Control 3;0;WriteMethodType=boolCL Control 4ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Control 4;0;WriteMethodType=boolCL Control EnableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Control Enable;0;WriteMethodType=boolCL Data ValidNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Data Valid;0;ReadMethodType=boolCL Frame ValidNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Frame Valid;0;ReadMethodType=boolCL Line ValidNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Line Valid;0;ReadMethodType=boolCL Output ValidNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Output Valid;0;ReadMethodType=boolCL Port ANumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port A;0;ReadMethodType=U8CL Port BNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port B;0;ReadMethodType=U8CL Port CNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port C;0;ReadMethodType=U8CL Port DNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port D;0;ReadMethodType=U8CL Port ENumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port E;0;ReadMethodType=U8CL Port FNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port F;0;ReadMethodType=U8CL Port GNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port G;0;ReadMethodType=U8CL Port HNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port H;0;ReadMethodType=U8CL Port INumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port I;0;ReadMethodType=U8CL Port JNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Port J;0;ReadMethodType=U8CL Set ConfigurationArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set Configuration;0;WriteMethodType=U8CL Set DVAL Active HighArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set DVAL Active High;0;WriteMethodType=boolCL Set FVAL Active HighArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set FVAL Active High;0;WriteMethodType=boolCL Set Line ScanArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set Line Scan;0;WriteMethodType=boolCL Set LVAL Active HighArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set LVAL Active High;0;WriteMethodType=boolCL Set Signal MappingArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set Signal Mapping;0;WriteMethodType=U8CL Set Spare Active HighArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/CL Set Spare Active High;0;WriteMethodType=boolCL SpareNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/CL Spare;0;ReadMethodType=boolIO Module4806a339697dcffe1ad92f8643ba9a4fIOModuleID:0x109374C9,Version:1.1.0,National Instruments::NI 1483,SyncClock:None&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Clock Connections&lt;/Name&gt;
+&lt;Dimsize&gt;2&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Clock 40 MHz&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;Clk40&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Image Data Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;CoreClk&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;25000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+Iso In 0NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Iso In 0;0;ReadMethodType=boolIso In 1NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/Iso In 1;0;ReadMethodType=boolPXI-7953R/RioClk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA/[rSeriesConfig.Begin][rSeriesConfig.End]QE Phase ANumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/QE Phase A;0;ReadMethodType=boolQE Phase BNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/QE Phase B;0;ReadMethodType=boolTTL In 0NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/TTL In 0;0;ReadMethodType=boolTTL In 1NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/TTL In 1;0;ReadMethodType=boolTTL In 2NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/TTL In 2;0;ReadMethodType=boolTTL In 3NumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/SignalList/TTL In 3;0;ReadMethodType=boolTTL Out 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out 0;0;WriteMethodType=boolTTL Out 1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out 1;0;WriteMethodType=boolTTL Out 2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out 2;0;WriteMethodType=boolTTL Out 3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out 3;0;WriteMethodType=boolTTL Out Enable 0ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out Enable 0;0;WriteMethodType=boolTTL Out Enable 1ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out Enable 1;0;WriteMethodType=boolTTL Out Enable 2ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out Enable 2;0;WriteMethodType=boolTTL Out Enable 3ArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=1;resource=/IO Module/SignalList/TTL Out Enable 3;0;WriteMethodType=boolUART Baud Rate InArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/UART Baud Rate In;0;WriteMethodType=U8UART Break IndicatorNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART Break Indicator;0;ReadMethodType=boolUART Framing ErrorNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART Framing Error;0;ReadMethodType=boolUART Read DataNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART Read Data;0;ReadMethodType=U8UART Read EnableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/UART Read Enable;0;WriteMethodType=boolUART RX Overrun ErrorNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART RX Overrun Error;0;ReadMethodType=boolUART RX ReadyNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART RX Ready;0;ReadMethodType=boolUART Set Baud Rate AckNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART Set Baud Rate Ack;0;ReadMethodType=boolUART Set Baud RateArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/UART Set Baud Rate;0;WriteMethodType=boolUART TX ReadyNumberOfSyncRegistersForReadInProject=0;resource=/IO Module/SignalList/UART TX Ready;0;ReadMethodType=boolUART Write DataArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/UART Write Data;0;WriteMethodType=U8UART Write EnableArbitrationForOutputData=NeverArbitrate;NumberOfSyncRegistersForOutputData=0;resource=/IO Module/SignalList/UART Write Enable;0;WriteMethodType=bool</Property>
+			<Property Name="NI.FPGA.79XXR.ConfiguredIOModule" Type="Str">IOModuleID:0x109374C9,Version:1.1.0,National Instruments::NI 1483,SyncClock:None</Property>
+			<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Category" Type="Str">FlexRIO-IOModule</Property>
+			<Property Name="NI.LV.FPGA.CLIPDeclarations[0].InvalidPath" Type="Str"></Property>
+			<Property Name="NI.LV.FPGA.CLIPDeclarations[0].Name" Type="Str">NI 1483</Property>
+			<Property Name="NI.LV.FPGA.CLIPDeclarationsArraySize" Type="Int">1</Property>
+			<Property Name="NI.LV.FPGA.CLIPDeclarationSet" Type="Xml">
+<CLIPDeclarationSet>
+   <CLIPDeclarationCategory name="FlexRIO-IOModule">
+      <CLIPDeclaration name="NI 1483">
+         <CLIPVersion>1.1.0</CLIPVersion>
+         <CompatibleCLIPSocketList>
+            <Socket>FlexRIO-IOModule</Socket>
+         </CompatibleCLIPSocketList>
+         <CompatibleIOModuleList>
+            <IOModule>IOModuleID:0x109374C9</IOModule>
+         </CompatibleIOModuleList>
+         <DeclarationPaths>
+            <Absolute>C:\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 1483\NI1483Clip\1.1.0\NI1483Clip.xml</Absolute>
+            <MD5>1756169715008d5d052d64adaf9ff058</MD5>
+            <RelativeToLabVIEW>..\Shared\FlexRIO\IO Modules\NI 1483\NI1483Clip\1.1.0\NI1483Clip.xml</RelativeToLabVIEW>
+            <RelativeToNiPubDocs>..\..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 1483\NI1483Clip\1.1.0\NI1483Clip.xml</RelativeToNiPubDocs>
+            <RelativeToNiSharedDir>Shared\FlexRIO\IO Modules\NI 1483\NI1483Clip\1.1.0\NI1483Clip.xml</RelativeToNiSharedDir>
+            <RelativeToProject>..\..\..\Program Files (x86)\National Instruments\Shared\FlexRIO\IO Modules\NI 1483\NI1483Clip\1.1.0\NI1483Clip.xml</RelativeToProject>
+            <Valid>true</Valid>
+         </DeclarationPaths>
+         <Description>This is a CLIP for the NI 1483 Camera Link Adapter Module. It supports base, medium, full, and extended (80-bit) Camera Link configurations for area scan and line scan cameras. Camera Link data is output on ten 8-bit Camera Link ports (A through J) along with flags, all synchronous to the user-selected Image Data Clock. The CLIP also provides access to the Camera Link serial interface, four camera control lines, four TTL I/O lines, two isolated inputs, and inputs for a quadrature encoder.</Description>
+         <FormatVersion>1.1</FormatVersion>
+         <HDLName>NI1483Clip</HDLName>
+         <ImplementationList>
+            <Path>NI1483Clip.vhd</Path>
+            <Path>NI1483Core.ngc</Path>
+            <Path>NI1483Clip.ucf</Path>
+            <VerifiedImplementationList>
+               <Path name="NI1483Clip.ucf">
+                  <MD5>749746f5e7a2722e08ba40a99e7c3926</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Same as synthesis</SimulationModelType>
+                  </SimulationFileList>
+               </Path>
+               <Path name="NI1483Clip.vhd">
+                  <MD5>4f6e308d6d42186ad3ec7a1d2d1e1db8</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Same as synthesis</SimulationModelType>
+                  </SimulationFileList>
+               </Path>
+               <Path name="NI1483Core.ngc">
+                  <MD5>70671ae6962fd01576ae7d2e9aa39efb</MD5>
+                  <SimulationFileList>
+                     <SimulationModelType>Exclude from simulation model</SimulationModelType>
+                  </SimulationFileList>
+               </Path>
+            </VerifiedImplementationList>
+         </ImplementationList>
+         <InterfaceList>
+            <Interface name="Fabric">
+               <InterfaceType>Fabric</InterfaceType>
+               <SignalList>
+                  <Signal name="aResetSl">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aResetSl</HDLName>
+                     <SignalType>reset</SignalType>
+                  </Signal>
+               </SignalList>
+            </Interface>
+            <Interface name="NI1483Clip">
+               <InterfaceType>LabVIEW</InterfaceType>
+               <SignalList>
+                  <Signal name="Clock 40 MHz">
+                     <Datatype>
+                        <Boolean></Boolean>
+                     </Datatype>
+                     <Direction>ToCLIP</Direction>
+                     <FreqInHertz>
+                        <Max>40M</Max>
+                        <Min>40M</Min>
+                     </FreqInHertz>
+                     <HDLName>Clk40</HDLName>
+                     <SignalType>clock</SignalType>
+                  </Signal>
+                  <Signal name="Image Data Clock">
+                     <Datatype>
+                        <Boolean></Boolean>
+                     </Datatype>
+                     <Direction>ToCLIP</Direction>
+                     <FreqInHertz>
+                        <Max>200M</Max>
+                        <Min>25M</Min>
+                     </FreqInHertz>
+                     <HDLName>CoreClk</HDLName>
+                     <SignalType>clock</SignalType>
+                  </Signal>
+                  <Signal name="CL Set Signal Mapping">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCl_SignalMapping</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Set Configuration">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCL_Configuration</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Set Line Scan">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCL_Linescan</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Set FVAL Active High">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCL_FvalActiveHigh</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Set LVAL Active High">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCL_LvalActiveHigh</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Set DVAL Active High">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCL_DvalActiveHigh</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Set Spare Active High">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCL_SpareActiveHigh</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Port A">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_PortA</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Port B">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_PortB</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Port C">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_PortC</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Port D">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_PortD</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Port E">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_PortE</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Port F">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_PortF</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Port G">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_PortG</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Port H">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_PortH</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Port I">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_PortI</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Port J">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_PortJ</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Frame Valid">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_FrameValid</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Line Valid">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_LineValid</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Data Valid">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_DataValid</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Spare">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_Spare</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Output Valid">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>cCL_OutputValid</HDLName>
+                     <RequiredClockDomain>Image Data Clock</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Control Enable">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCL_CamControlEn</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Control 1">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCL_CamControl1</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Control 2">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCL_CamControl2</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Control 3">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCL_CamControl3</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Control 4">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCL_CamControl4</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Acq Init">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aCL_AcqInit</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="CL Acq Ready">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>aCL_AcqReady</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="Iso In 0">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>aIsoIn0</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="Iso In 1">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>aIsoIn1</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="QE Phase A">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>aQuadPhaseA</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="QE Phase B">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>aQuadPhaseB</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="TTL In 0">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>aTTL_In0</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="TTL In 1">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>aTTL_In1</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="TTL In 2">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>aTTL_In2</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="TTL In 3">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>aTTL_In3</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="TTL Out 0">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aTTL_Out0</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="TTL Out 1">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aTTL_Out1</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="TTL Out 2">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aTTL_Out2</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="TTL Out 3">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aTTL_Out3</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="TTL Out Enable 0">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aTTL_OutEn0</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="TTL Out Enable 1">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aTTL_OutEn1</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="TTL Out Enable 2">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aTTL_OutEn2</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="TTL Out Enable 3">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>aTTL_OutEn3</HDLName>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="UART Read Enable">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>rUartRead</HDLName>
+                     <RequiredClockDomain>Clock 40 MHz</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="UART Read Data">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rUartDataOut</HDLName>
+                     <RequiredClockDomain>Clock 40 MHz</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="UART Write Enable">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>rUartWrite</HDLName>
+                     <RequiredClockDomain>Clock 40 MHz</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="UART Write Data">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>rUartDataIn</HDLName>
+                     <RequiredClockDomain>Clock 40 MHz</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="UART TX Ready">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rUartTxReady</HDLName>
+                     <RequiredClockDomain>Clock 40 MHz</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="UART RX Ready">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rUartRxReady</HDLName>
+                     <RequiredClockDomain>Clock 40 MHz</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="UART Break Indicator">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rUartBreakIndicator</HDLName>
+                     <RequiredClockDomain>Clock 40 MHz</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="UART Framing Error">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rUartFramingError</HDLName>
+                     <RequiredClockDomain>Clock 40 MHz</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="UART RX Overrun Error">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rUartRxOverRunError</HDLName>
+                     <RequiredClockDomain>Clock 40 MHz</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="UART Set Baud Rate">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>rUartSetRate</HDLName>
+                     <RequiredClockDomain>Clock 40 MHz</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="UART Set Baud Rate Ack">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rUartSetRateAck</HDLName>
+                     <RequiredClockDomain>Clock 40 MHz</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+                  <Signal name="UART Baud Rate In">
+                     <DataType>
+                        <U8></U8>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>rUartBaudRate</HDLName>
+                     <RequiredClockDomain>Clock 40 MHz</RequiredClockDomain>
+                     <SignalType>data</SignalType>
+                  </Signal>
+               </SignalList>
+            </Interface>
+            <Interface name="Socket">
+               <InterfaceType>Socket</InterfaceType>
+               <SignalList>
+                  <Signal name="aUserGpio">
+                     <DataType>
+                        <Array>
+                           <Boolean></Boolean>
+                           <Size>66</Size>
+                        </Array>
+                     </DataType>
+                     <Direction>Bidirectional</Direction>
+                     <HDLName>aUserGpio</HDLName>
+                  </Signal>
+                  <Signal name="aUserGpio_n">
+                     <DataType>
+                        <Array>
+                           <Boolean></Boolean>
+                           <Size>66</Size>
+                        </Array>
+                     </DataType>
+                     <Direction>Bidirectional</Direction>
+                     <HDLName>aUserGpio_n</HDLName>
+                  </Signal>
+                  <Signal name="rIoModGpioEn">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>rIoModGpioEn</HDLName>
+                  </Signal>
+                  <Signal name="UserGClkLvds">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>UserGClkLvds</HDLName>
+                  </Signal>
+                  <Signal name="UserGClkLvds_n">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>UserGClkLvds_n</HDLName>
+                  </Signal>
+                  <Signal name="UserGClkLvttl">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>UserGClkLvttl</HDLName>
+                  </Signal>
+                  <Signal name="IoModClipClock0">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>IoModClipClock0</HDLName>
+                  </Signal>
+                  <Signal name="IoModClipClock1">
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>IoModClipClock1</HDLName>
+                  </Signal>
+                  <Signal name="rClkToSocket">
+                     <CLIPSignal>rClkToSocket</CLIPSignal>
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>rClkToSocket</HDLName>
+                  </Signal>
+                  <Signal name="rLvFpgaReqI2cBus">
+                     <CLIPSignal>rLvFpgaReqI2cBus</CLIPSignal>
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rLvFpgaReqI2cBus</HDLName>
+                  </Signal>
+                  <Signal name="rLvFpgaAckI2cBus">
+                     <CLIPSignal>rLvFpgaAckI2cBus</CLIPSignal>
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>rLvFpgaAckI2cBus</HDLName>
+                  </Signal>
+                  <Signal name="rLvFpgaI2cGo">
+                     <CLIPSignal>rLvFpgaI2cGo</CLIPSignal>
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rLvFpgaI2cGo</HDLName>
+                  </Signal>
+                  <Signal name="rLvFpgaI2cStart">
+                     <CLIPSignal>rLvFpgaI2cStart</CLIPSignal>
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rLvFpgaI2cStart</HDLName>
+                  </Signal>
+                  <Signal name="rLvFpgaI2cStop">
+                     <CLIPSignal>rLvFpgaI2cStop</CLIPSignal>
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rLvFpgaI2cStop</HDLName>
+                  </Signal>
+                  <Signal name="rLvFpgaI2cRd">
+                     <CLIPSignal>rLvFpgaI2cRd</CLIPSignal>
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rLvFpgaI2cRd</HDLName>
+                  </Signal>
+                  <Signal name="rLvFpgaI2cAck">
+                     <CLIPSignal>rLvFpgaI2cAck</CLIPSignal>
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>rLvFpgaI2cAck</HDLName>
+                  </Signal>
+                  <Signal name="rLvFpgaI2cDone">
+                     <CLIPSignal>rLvFpgaI2cDone</CLIPSignal>
+                     <DataType>
+                        <Boolean></Boolean>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>rLvFpgaI2cDone</HDLName>
+                  </Signal>
+                  <Signal name="rLvFpgaI2cWtData">
+                     <CLIPSignal>rLvFpgaI2cWtData</CLIPSignal>
+                     <DataType>
+                        <Array>
+                           <Boolean></Boolean>
+                           <Size>8</Size>
+                        </Array>
+                     </DataType>
+                     <Direction>FromCLIP</Direction>
+                     <HDLName>rLvFpgaI2cWtData</HDLName>
+                  </Signal>
+                  <Signal name="rLvFpgaI2cRdData">
+                     <CLIPSignal>rLvFpgaI2cRdData</CLIPSignal>
+                     <DataType>
+                        <Array>
+                           <Boolean></Boolean>
+                           <Size>8</Size>
+                        </Array>
+                     </DataType>
+                     <Direction>ToCLIP</Direction>
+                     <HDLName>rLvFpgaI2cRdData</HDLName>
+                  </Signal>
+               </SignalList>
+            </Interface>
+         </InterfaceList>
+      </CLIPDeclaration>
+   </CLIPDeclarationCategory>
+</CLIPDeclarationSet></Property>
+			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">PXI-7953R/RioClk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXI_7953RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
+			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
+			<Property Name="Resource Name" Type="Str">RIO0</Property>
+			<Property Name="Target Class" Type="Str">PXI-7953R</Property>
+			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
+			<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
+			<Item Name="IO Module" Type="FPGA Component Level IP">
+				<Property Name="FPGA.PersistentID" Type="Str">{67457D0F-7589-4507-BD03-7FBF2F6620FA}</Property>
+				<Property Name="NI.FPGA.79XXR.NormalizeCLIPPath" Type="Str">true</Property>
+				<Property Name="NI.LV.CLIP.ClockConnections" Type="Xml">
+<CLIPConnections>
+   <CLIPSignal name="Clock 40 MHz">
+      <ClockFromCLIP>false</ClockFromCLIP>
+      <Direction>ToCLIP</Direction>
+      <HDLName>Clk40</HDLName>
+      <LinkToFPGAClock>40 MHz Onboard Clock</LinkToFPGAClock>
+      <MaxFreq>40000000.00000</MaxFreq>
+      <MinFreq>40000000.00000</MinFreq>
+      <UseTopClock>false</UseTopClock>
+   </CLIPSignal>
+   <CLIPSignal name="Image Data Clock">
+      <ClockFromCLIP>false</ClockFromCLIP>
+      <Direction>ToCLIP</Direction>
+      <HDLName>CoreClk</HDLName>
+      <LinkToFPGAClock>40 MHz Onboard Clock</LinkToFPGAClock>
+      <MaxFreq>200000000.0000</MaxFreq>
+      <MinFreq>25000000.00000</MinFreq>
+      <UseTopClock>false</UseTopClock>
+   </CLIPSignal>
+</CLIPConnections></Property>
+				<Property Name="NI.LV.CLIP.DeclarationCategory" Type="Str">FlexRIO-IOModule</Property>
+				<Property Name="NI.LV.CLIP.DeclarationName" Type="Str">NI 1483</Property>
+				<Property Name="NI.LV.CLIP.ExtendedConfigString" Type="Str">IOModuleID:0x109374C9,Version:1.1.0,National Instruments::NI 1483,SyncClock:None</Property>
+				<Property Name="NI.LV.CLIP.SocketedCLIP" Type="Bool">true</Property>
+				<Property Name="NI.LV.CLIP.SocketSelection" Type="Str">FlexRIO-IOModule</Property>
+				<Property Name="NI.LV.CLIP.SocketSpecificCompileSignature" Type="Str">4806a339697dcffe1ad92f8643ba9a4fIOModuleID:0x109374C9,Version:1.1.0,National Instruments::NI 1483,SyncClock:None</Property>
+				<Property Name="NI.LV.CLIP.Version" Type="UInt">4</Property>
+				<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">4806a339697dcffe1ad92f8643ba9a4fIOModuleID:0x109374C9,Version:1.1.0,National Instruments::NI 1483,SyncClock:None&lt;Array&gt;
+&lt;Name&gt;Generics&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Generic&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Type&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Default value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Value&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Description&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Clock Connections&lt;/Name&gt;
+&lt;Dimsize&gt;2&lt;/Dimsize&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Clock 40 MHz&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;Clk40&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;40000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock Connection&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;CLIP Clock&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;LabVIEW name&lt;/Name&gt;
+&lt;Val&gt;Image Data Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;VHDL name&lt;/Name&gt;
+&lt;Val&gt;CoreClk&lt;/Val&gt;
+&lt;/String&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Max Freq&lt;/Name&gt;
+&lt;Val&gt;200000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;Min Freq&lt;/Name&gt;
+&lt;Val&gt;25000000.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;EW&gt;
+&lt;Name&gt;Direction&lt;/Name&gt;
+&lt;Choice&gt;ToCLIP&lt;/Choice&gt;
+&lt;Choice&gt;FromCLIP&lt;/Choice&gt;
+&lt;Choice&gt;Bidirectional&lt;/Choice&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/EW&gt;
+&lt;String&gt;
+&lt;Name&gt;ClockToLinkTo&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;FPGA Clock&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;String&gt;
+&lt;Name&gt;Name&lt;/Name&gt;
+&lt;Val&gt;40 MHz Onboard Clock&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Use Top Clock&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Clock From CLIP&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;/Array&gt;
+</Property>
+				<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+				<Property Name="NI.SortType" Type="Int">3</Property>
+				<Item Name="CL Set Signal Mapping" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Set Signal Mapping</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{D91F3663-835E-4C5C-8161-10053CBAE9CF}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Set Configuration" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Set Configuration</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{BD56DD47-0F1A-4209-ACEC-228F223FF78B}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Set Line Scan" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Set Line Scan</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{4B7F7CFB-5E97-4C4A-876B-E80E2376B853}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Set FVAL Active High" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Set FVAL Active High</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{55FE1454-83D0-44A5-ABF2-ED56F37D2A55}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Set LVAL Active High" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Set LVAL Active High</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{01E469C2-550E-40EB-BAF3-80FD325B3F4D}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Set DVAL Active High" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Set DVAL Active High</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{1D5E2828-54EF-4C05-BA92-CE7DCF19EE29}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Set Spare Active High" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Set Spare Active High</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{2816FE29-4D7A-485F-A983-A244DA86CBE4}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Port A" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Port A</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{9D9662B2-81D3-4BFA-BEFA-29CA759673E3}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Port B" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Port B</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{CB1FFDC0-3EB1-4883-931E-44BB0385F0B6}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Port C" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Port C</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{6A90D6BD-0E13-4C44-B8AE-2B239243C712}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Port D" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Port D</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{4EEBB32C-AEA6-4242-ADE0-F4BC9B46AECC}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Port E" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Port E</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{487EC01A-0C15-449E-A97D-F9939BD5C775}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Port F" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Port F</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{A875AEE9-46FB-476D-91E7-CB6B8E00659C}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Port G" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Port G</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{20354106-1ACF-4F02-BF0B-0FD08F81C1A0}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Port H" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Port H</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{9053C325-F36C-4D25-9231-3C40AB64DD7B}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Port I" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Port I</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{EE11D576-D6CF-4F92-B957-1755848B1C86}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Port J" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Port J</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{68D10D84-C733-4A83-9C83-55F76BF6AD1D}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Frame Valid" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Frame Valid</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{9AF9E423-02BE-432A-B2F8-FF5742379F60}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Line Valid" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Line Valid</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{3AF2DE0F-A120-4721-A2BD-53DCE01AD8C9}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Data Valid" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Data Valid</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{993DAD0D-B6BC-4FEB-8957-C1470F9BB771}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Spare" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Spare</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{37CF80CA-63E0-422F-81FC-86D09B547262}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Output Valid" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Output Valid</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{22A51107-272B-4DEB-91F0-823DAF72C35E}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Control Enable" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Control Enable</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{A355F3B0-49BE-4924-B70A-DCAF7A0B8AF6}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Control 1" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Control 1</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{5E29B1DB-A497-4C96-A34D-8A6A0C4BCCBD}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Control 2" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Control 2</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{994E7506-8AEB-4868-AAAD-25C7C6A77F02}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Control 3" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Control 3</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{0D1FFDDC-7F5A-4B55-8A12-06FFB186B944}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Control 4" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Control 4</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{08D8B472-083F-442F-A766-C499E6F652FF}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Acq Init" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Acq Init</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{1AA6ADD9-1184-4F45-985F-5F06DC2C1E49}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="CL Acq Ready" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/CL Acq Ready</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{9E27E5C6-13A8-43EF-824F-DD54B196300D}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="Iso In 0" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/Iso In 0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{534ADDB0-B9F4-471E-BDC4-A750CD57C00D}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="Iso In 1" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/Iso In 1</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{AF52C8B1-EFE2-4B22-A74E-E82391744D7E}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="QE Phase A" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/QE Phase A</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{204930D4-92B2-4BA3-BEC6-1B7D090E239E}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="QE Phase B" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/QE Phase B</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{652EADAD-F69B-455D-9F54-0CE04136BCF3}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="TTL In 0" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/TTL In 0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{88E80AEB-CEAA-4582-90A3-113D4B02534D}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="TTL In 1" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/TTL In 1</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{46303228-473C-4830-B2DB-FA02866BB09F}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="TTL In 2" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/TTL In 2</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{82A2F818-57C5-40BA-BD1C-BE9BE8D99146}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="TTL In 3" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>Auto</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/TTL In 3</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{D843E2F5-945A-40D9-BB33-A18DB67E1DAD}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="TTL Out 0" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/TTL Out 0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{F80476D8-B48C-43AB-9D55-34F44A23D2E1}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="TTL Out 1" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/TTL Out 1</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{25EA747F-3D56-4158-BF3D-FD47D3E20892}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="TTL Out 2" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/TTL Out 2</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{34C6B128-9B2C-4B68-AA7E-6343A675C69E}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="TTL Out 3" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/TTL Out 3</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{D0393A0B-7264-4CCD-8049-CD9E8AA710B0}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="TTL Out Enable 0" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/TTL Out Enable 0</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{F5323495-09A2-4B24-A31B-3ADD1937FDB7}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="TTL Out Enable 1" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/TTL Out Enable 1</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{900873B9-C3B3-4D8D-A41E-0822F1DBC6A4}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="TTL Out Enable 2" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/TTL Out Enable 2</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{196D7B16-4BCC-45A7-8060-850BCEAA2C75}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="TTL Out Enable 3" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>1</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/TTL Out Enable 3</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{DEC9F687-7DB7-4464-A23E-BC94B5479E2A}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="UART Read Enable" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/UART Read Enable</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{547653EE-B90D-43E4-A536-0C50BFBB7DA0}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="UART Read Data" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/UART Read Data</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{8C335D7C-FDC3-4635-8D36-4557833BDFAB}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="UART Write Enable" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/UART Write Enable</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{8DADAE54-FB3E-48FF-9AFA-12A314E05084}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="UART Write Data" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/UART Write Data</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{E7BAA3D9-C243-4CE7-85F0-3AD98A5BB8C1}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="UART TX Ready" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/UART TX Ready</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{09809CC1-5512-42BA-BB96-EAB8A1EC56CE}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="UART RX Ready" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/UART RX Ready</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{F3757496-784E-4BCA-86DD-11299499CB98}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="UART Break Indicator" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/UART Break Indicator</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{9CDD0127-09A5-418E-8708-C39DC7CF023C}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="UART Framing Error" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/UART Framing Error</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{72C2A6F5-DAE2-4936-91BF-7154C2E98FED}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="UART RX Overrun Error" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/UART RX Overrun Error</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{F5F0B4F1-B8F5-4E6C-B49A-554E7303A125}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="UART Set Baud Rate" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/UART Set Baud Rate</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{6C069B5C-61E8-409B-944C-C223ACD1DF4C}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="UART Set Baud Rate Ack" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="NumberOfSyncRegistersForReadInProject">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/UART Set Baud Rate Ack</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{DB778E75-D378-404C-921D-0EB4F9A9854D}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+				<Item Name="UART Baud Rate In" Type="Elemental IO">
+					<Property Name="eioAttrBag" Type="Xml"><AttributeSet name="">
+   <Attribute name="ArbitrationForOutputData">
+   <Value>NeverArbitrate</Value>
+   </Attribute>
+   <Attribute name="NumberOfSyncRegistersForOutputData">
+   <Value>0</Value>
+   </Attribute>
+   <Attribute name="resource">
+   <Value>/IO Module/SignalList/UART Baud Rate In</Value>
+   </Attribute>
+</AttributeSet>
+</Property>
+					<Property Name="FPGA.PersistentID" Type="Str">{A3D5744E-ECAE-40C5-845A-FD075B302B83}</Property>
+					<Property Name="NI.LV.EIO.Physical" Type="Bool">true</Property>
+				</Item>
+			</Item>
+			<Item Name="DRAM Bank 0" Type="FPGA Component Level IP">
+				<Property Name="NI.LV.CLIP.DeclarationCategory" Type="Str"></Property>
+				<Property Name="NI.LV.CLIP.SocketedCLIP" Type="Bool">true</Property>
+				<Property Name="NI.LV.CLIP.SocketSelection" Type="Str">FlexRIO-DRAMTypeA-Bank0</Property>
+				<Property Name="NI.LV.CLIP.SocketSpecificCompileSignature" Type="Str"></Property>
+				<Property Name="NI.LV.CLIP.Version" Type="UInt">4</Property>
+				<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+				<Property Name="NI.SortType" Type="Int">3</Property>
+			</Item>
+			<Item Name="DRAM Bank 1" Type="FPGA Component Level IP">
+				<Property Name="NI.LV.CLIP.DeclarationCategory" Type="Str"></Property>
+				<Property Name="NI.LV.CLIP.SocketedCLIP" Type="Bool">true</Property>
+				<Property Name="NI.LV.CLIP.SocketSelection" Type="Str">FlexRIO-DRAMTypeA-Bank1</Property>
+				<Property Name="NI.LV.CLIP.SocketSpecificCompileSignature" Type="Str"></Property>
+				<Property Name="NI.LV.CLIP.Version" Type="UInt">4</Property>
+				<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+				<Property Name="NI.SortType" Type="Int">3</Property>
+			</Item>
+			<Item Name="40 MHz Onboard Clock" Type="FPGA Base Clock">
+				<Property Name="FPGA.PersistentID" Type="Str">{DDC7C2A0-E463-4BA1-A12A-1E0157144B02}</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig" Type="Str">ResourceName=40 MHz Onboard Clock;TopSignalConnect=RioClk40;ClockSignalName=RioClk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427E;</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig.Accuracy" Type="Dbl">100</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig.ClockSignalName" Type="Str">RioClk40</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig.MaxDutyCycle" Type="Dbl">50</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig.MaxFrequency" Type="Dbl">40000000</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig.MinDutyCycle" Type="Dbl">50</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig.MinFrequency" Type="Dbl">40000000</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig.NominalFrequency" Type="Dbl">40000000</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig.PeakPeriodJitter" Type="Dbl">250</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig.ResourceName" Type="Str">40 MHz Onboard Clock</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig.SupportAndRequireRuntimeEnableDisable" Type="Bool">false</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig.TopSignalConnect" Type="Str">RioClk40</Property>
+				<Property Name="NI.LV.FPGA.BaseTSConfig.VariableFrequency" Type="Bool">false</Property>
+				<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
+				<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
+			</Item>
+			<Item Name="IP Builder" Type="IP Builder Target">
+				<Item Name="Dependencies" Type="Dependencies"/>
+				<Item Name="Build Specifications" Type="Build"/>
+			</Item>
+			<Item Name="Dependencies" Type="Dependencies"/>
+			<Item Name="Build Specifications" Type="Build"/>
+		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
