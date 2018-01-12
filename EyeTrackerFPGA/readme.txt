@@ -1,0 +1,2 @@
+To use the same code on different setups, after downloading the code gfrom github, go to the builds folder and delete the default.xml
+Also, open the project and change the default setup control to the setup on which it will be run and rebuild the code
